@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T13:32:07.413Z" agent="5.0 (Windows)" etag="foSbrY0luCAcA9lATUXK" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-28T13:33:41.071Z" agent="5.0 (Windows)" etag="cbDNeT0UQT-XOEKjWlHd" version="20.4.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="MER">
     <mxGraphModel dx="1736" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -693,8 +693,8 @@
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-1" value="&lt;b&gt;Utilizador&lt;/b&gt; ( Id, nomeUtilizador, password, previlegio,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, nome,salario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="40" width="290" height="30" as="geometry" />
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, salario,#id_pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-3" value="&lt;b&gt;Dono&lt;/b&gt; ( Id_dono, #id_pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="224" width="200" height="30" as="geometry" />
