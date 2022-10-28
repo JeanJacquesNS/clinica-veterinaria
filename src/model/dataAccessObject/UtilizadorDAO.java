@@ -1,7 +1,6 @@
 package model.dataAccessObject;
 
-import com.sun.nio.sctp.MessageInfo;
-import model.valueObject.Utilizador;
+import model.valueObject.UtilizadorVO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -29,13 +28,13 @@ public class UtilizadorDAO {
         }
     }
 
-    public void inserir(Utilizador utilizador) {
+    public void inserir(UtilizadorVO utilizadorVO) {
         String sql = "INSERT INTO utilizador(nome_utilizador,password,id_funcionario)VALUES(?,?,?)";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            preparedStatement.setString(1, utilizador.getNomeUtilizador());
-            preparedStatement.setString(2, utilizador.getPassword());
-            preparedStatement.setLong(3, utilizador.getId_funcionario());
+            preparedStatement.setString(1, utilizadorVO.getNomeUtilizador());
+            preparedStatement.setString(2, utilizadorVO.getPassword());
+            preparedStatement.setLong(3, utilizadorVO.getId_funcionario());
             preparedStatement.executeQuery();
             preparedStatement.close();
 
@@ -44,14 +43,14 @@ public class UtilizadorDAO {
         }
     }
 
-    public void actualizar(Utilizador utilizador) {
+    public void actualizar(UtilizadorVO utilizadorVO) {
         String sql = "UPDATE utilizador SET nome_utilizador=?,password=?,id_funcionario=? WHERE id=?";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            preparedStatement.setString(1, utilizador.getNomeUtilizador());
-            preparedStatement.setString(2, utilizador.getPassword());
-            preparedStatement.setLong(3, utilizador.getId_funcionario());
-            preparedStatement.setLong(4, utilizador.getId());
+            preparedStatement.setString(1, utilizadorVO.getNomeUtilizador());
+            preparedStatement.setString(2, utilizadorVO.getPassword());
+            preparedStatement.setLong(3, utilizadorVO.getId_funcionario());
+            preparedStatement.setLong(4, utilizadorVO.getId());
             preparedStatement.executeUpdate();
             preparedStatement.close();
 
@@ -60,11 +59,11 @@ public class UtilizadorDAO {
         }
     }
 
-    public void remover(Utilizador utilizador) {
+    public void remover(UtilizadorVO utilizadorVO) {
         String sql = "DELETE FROM utilizador WHERE id=?";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            preparedStatement.setLong(1, utilizador.getId());
+            preparedStatement.setLong(1, utilizadorVO.getId());
             preparedStatement.executeQuery();
             preparedStatement.close();
         } catch (SQLException excepcao) {
@@ -72,7 +71,7 @@ public class UtilizadorDAO {
         }
     }
 
-    public Optional<Utilizador> pegarUtilizadorPorNomeUtilizadorEPassword(String nomeUtilizador, String password) {
+    public Optional<UtilizadorVO> pegarUtilizadorPorNomeUtilizadorEPassword(String nomeUtilizador, String password) {
         String sql = "SELECT * FROM utilizador WHERE nome_utilizador=? and password=? LIMIT 1";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
@@ -80,14 +79,14 @@ public class UtilizadorDAO {
             preparedStatement.setString(2, password);
             ResultSet resultSet = preparedStatement.executeQuery();
 
-            Utilizador utilizador = null;
+            UtilizadorVO utilizadorVO = null;
             while (resultSet.next()) {
-                utilizador = new Utilizador(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
+                utilizadorVO = new UtilizadorVO(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
                         resultSet.getString("password"), resultSet.getLong("id_funcionario"));
             }
             preparedStatement.close();
-            if (Objects.nonNull(utilizador))
-                return Optional.of(utilizador);
+            if (Objects.nonNull(utilizadorVO))
+                return Optional.of(utilizadorVO);
             else
                 return Optional.empty();
 
@@ -98,19 +97,19 @@ public class UtilizadorDAO {
         }
     }
 
-    public List<Utilizador> pegarTodos() {
+    public List<UtilizadorVO> pegarTodos() {
         String sql = "SELECT * from utilizador";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
-            List<Utilizador> utilizadorList = new ArrayList<>();
+            List<UtilizadorVO> utilizadorVOList = new ArrayList<>();
 
             while (resultSet.next()) {
-                Utilizador utilizador = new Utilizador(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
+                UtilizadorVO utilizadorVO = new UtilizadorVO(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
                         resultSet.getString("password"), resultSet.getLong("id_funcionario"));
-                utilizadorList.add(utilizador);
+                utilizadorVOList.add(utilizadorVO);
             }
-            return utilizadorList;
+            return utilizadorVOList;
         } catch (SQLException excepcao) {
             Logger.getLogger(UtilizadorDAO.class.getName()).log(Level.SEVERE, null, excepcao);
             return new ArrayList<>();

@@ -4,16 +4,16 @@ package model.valueObject;
  * @author Jean Jacques N. Shimwa
  * @created 26-10-2022 - 2:50 PM
  */
-public class Utilizador {
+public class UtilizadorVO {
     private Long id;
     private String nomeUtilizador;
     private String password;
     private Long id_funcionario;
 
-    public Utilizador() {
+    public UtilizadorVO() {
     }
 
-    public Utilizador(Long id, String nomeUtilizador, String password, Long id_funcionario) {
+    public UtilizadorVO(Long id, String nomeUtilizador, String password, Long id_funcionario) {
         this.id = id;
         this.nomeUtilizador = nomeUtilizador;
         this.password = password;
