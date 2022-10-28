@@ -5,26 +5,26 @@ package model.valueObject;
  * @created 28-10-2022 - 2:58 PM
  */
 public class EnderecoVO {
-    private Long id_funcionario;
+    private PessoaVO pessoaVO;
     private String avenida;
     private String rua;
     private String bairro;
 
     public EnderecoVO() { }
 
-    public EnderecoVO(Long id_funcionario, String avenida, String rua, String bairro) {
-        this.id_funcionario = id_funcionario;
+    public EnderecoVO(PessoaVO pessoaVO, String avenida, String rua, String bairro) {
+        this.pessoaVO = pessoaVO;
         this.avenida = avenida;
         this.rua = rua;
         this.bairro = bairro;
     }
 
-    public Long getId_funcionario() {
-        return id_funcionario;
+    public PessoaVO getPessoaVO() {
+        return pessoaVO;
     }
 
-    public void setId_funcionario(Long id_funcionario) {
-        this.id_funcionario = id_funcionario;
+    public void setPessoaVO(PessoaVO pessoaVO) {
+        this.pessoaVO = pessoaVO;
     }
 
     public String getAvenida() {

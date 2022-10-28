@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 public class FuncionarioVO {
     private Long id_funcionario;
     private BigDecimal salario;
+    private PessoaVO pessoaVO;
 
     public FuncionarioVO() {}
 

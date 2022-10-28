@@ -5,22 +5,22 @@ package model.valueObject;
  * @created 28-10-2022 - 3:00 PM
  */
 public class TelefoneVO {
-    private Long id_funcionario;
+    private PessoaVO pessoaVO;
     private String telefone;
 
     public TelefoneVO() { }
 
-    public TelefoneVO(Long id_funcionario, String telefone) {
-        this.id_funcionario = id_funcionario;
+    public TelefoneVO(PessoaVO pessoaVO, String telefone) {
+        this.pessoaVO = pessoaVO;
         this.telefone = telefone;
     }
 
-    public Long getId_funcionario() {
-        return id_funcionario;
+    public PessoaVO getPessoaVO() {
+        return pessoaVO;
     }
 
-    public void setId_funcionario(Long id_funcionario) {
-        this.id_funcionario = id_funcionario;
+    public void setPessoaVO(PessoaVO pessoaVO) {
+        this.pessoaVO = pessoaVO;
     }
 
     public String getTelefone() {
