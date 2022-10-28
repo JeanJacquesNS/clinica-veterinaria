@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T13:45:35.125Z" agent="5.0 (Windows)" etag="TESKvvxG0P-wBAAm4_3g" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-28T14:03:22.405Z" agent="5.0 (Windows)" etag="Z3_2Y8cu2Er3dm1aFUqn" version="20.4.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="MER">
     <mxGraphModel dx="1736" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -721,16 +721,16 @@
           <mxGeometry x="20" y="374" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( &lt;u&gt;Id_tratamento&lt;/u&gt;, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="404" width="550" height="30" as="geometry" />
+          <mxGeometry x="20" y="430" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( &lt;u&gt;Id_vacina&lt;/u&gt;, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="434" width="500" height="30" as="geometry" />
+          <mxGeometry x="20" y="460" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-13" value="&lt;b&gt;Exame&lt;/b&gt; ( &lt;u&gt;Id_exame&lt;/u&gt;, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="464" width="470" height="30" as="geometry" />
+          <mxGeometry x="20" y="490" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-14" value="&lt;b&gt;Internação&lt;/b&gt; ( &lt;u&gt;Id_internacao&lt;/u&gt;, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="494" width="540" height="30" as="geometry" />
+          <mxGeometry x="20" y="520" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-15" value="&lt;b&gt;Telefone&lt;/b&gt; ( &lt;u&gt;#id_pessoa,telefone&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="220" height="30" as="geometry" />
@@ -742,7 +742,10 @@
           <mxGeometry x="20" y="70" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GLQ3UUEENlT0YwsbKA43-1" value="&lt;b&gt;Veterinario_Equipe&lt;/b&gt; ( &lt;u&gt;#Id_veterinario, #id_equipe&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="20" y="530" width="330" height="30" as="geometry" />
+          <mxGeometry x="20" y="556" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFg0qBcj6S1qIps4W3da-1" value="&lt;b&gt;Alergia&lt;/b&gt; ( &lt;u&gt;#Id_animal&lt;/u&gt;, nome)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="404" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
