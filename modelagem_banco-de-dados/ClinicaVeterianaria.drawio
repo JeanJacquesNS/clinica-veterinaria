@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T13:43:18.251Z" agent="5.0 (Windows)" etag="60pUJUL0xWHkDiCdmLP8" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-28T13:45:35.125Z" agent="5.0 (Windows)" etag="TESKvvxG0P-wBAAm4_3g" version="20.4.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="MER">
     <mxGraphModel dx="1736" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -640,46 +640,46 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-1" value="&lt;b&gt;Utilizador&lt;/b&gt; ( Id, nomeUtilizador, password, previlegio,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-1" value="&lt;b&gt;Utilizador&lt;/b&gt; ( &lt;u&gt;Id&lt;/u&gt;, nomeUtilizador, password, previlegio,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, nome, endereco(avenida,rua,bairo),telefone,salario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="40" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-3" value="&lt;b&gt;Dono&lt;/b&gt; ( Id_dono, nome, telefone,endereco(avenida,rua,bairo),telefone)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-3" value="&lt;b&gt;Dono&lt;/b&gt; ( &lt;u&gt;Id_dono&lt;/u&gt;, nome, telefone,endereco(avenida,rua,bairo),telefone)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-4" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( Id_recepcionista,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-4" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( &lt;u&gt;Id_recepcionista&lt;/u&gt;,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="70" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( Id_veterinario, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( &lt;u&gt;Id_veterinario&lt;/u&gt;, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="100" width="384" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( Id_equipe, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( &lt;u&gt;Id_equipe&lt;/u&gt;, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( Id_areaInternacao, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( &lt;u&gt;Id_areaInternacao&lt;/u&gt;, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="190" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-8" value="&lt;b&gt;Baia&lt;/b&gt; ( Id_baia, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-8" value="&lt;b&gt;Baia&lt;/b&gt; ( &lt;u&gt;Id_baia&lt;/u&gt;, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="220" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-9" value="&lt;b&gt;Sector&lt;/b&gt; ( Id_sector,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-9" value="&lt;b&gt;Sector&lt;/b&gt; ( &lt;u&gt;Id_sector&lt;/u&gt;,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="250" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-10" value="&lt;b&gt;Animal&lt;/b&gt; ( Id_animal, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-10" value="&lt;b&gt;Animal&lt;/b&gt; ( &lt;u&gt;Id_animal&lt;/u&gt;, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="280" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( Id_tratamento, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( &lt;u&gt;Id_tratamento&lt;/u&gt;, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="310" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( Id_vacina, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( &lt;u&gt;Id_vacina&lt;/u&gt;, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="340" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-13" value="&lt;b&gt;Exame&lt;/b&gt; ( Id_exame, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-13" value="&lt;b&gt;Exame&lt;/b&gt; ( &lt;u&gt;Id_exame&lt;/u&gt;, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="370" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-14" value="&lt;b&gt;Internação&lt;/b&gt; ( Id_internacao, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="gWf5Jpj1cNQTGwzoy_Wq-14" value="&lt;b&gt;Internação&lt;/b&gt; ( &lt;u&gt;Id_internacao&lt;/u&gt;, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="400" width="540" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -690,59 +690,59 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-1" value="&lt;b&gt;Utilizador&lt;/b&gt; ( Id, nomeUtilizador, password, previlegio,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-1" value="&lt;b&gt;Utilizador&lt;/b&gt; ( &lt;u&gt;Id&lt;/u&gt;, nomeUtilizador, password, previlegio,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, salario,#id_pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="40" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-3" value="&lt;b&gt;Dono&lt;/b&gt; ( Id_dono, #id_pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-3" value="&lt;b&gt;Dono&lt;/b&gt; ( &lt;u&gt;Id_dono&lt;/u&gt;, #id_pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="224" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-4" value="&lt;b&gt;Endereço&lt;/b&gt; ( &lt;u&gt;#id_pessoa, avenida&lt;/u&gt;, rua, bairro)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="100" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( Id_veterinario, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( &lt;u&gt;Id_veterinario&lt;/u&gt;, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="194" width="384" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( Id_equipe, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( &lt;u&gt;Id_equipe&lt;/u&gt;, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="254" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( Id_areaInternacao, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( &lt;u&gt;Id_areaInternacao&lt;/u&gt;, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="284" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-8" value="&lt;b&gt;Baia&lt;/b&gt; ( Id_baia, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-8" value="&lt;b&gt;Baia&lt;/b&gt; ( &lt;u&gt;Id_baia&lt;/u&gt;, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="314" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-9" value="&lt;b&gt;Sector&lt;/b&gt; ( Id_sector,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-9" value="&lt;b&gt;Sector&lt;/b&gt; ( &lt;u&gt;Id_sector&lt;/u&gt;,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="344" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-10" value="&lt;b&gt;Animal&lt;/b&gt; ( Id_animal, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-10" value="&lt;b&gt;Animal&lt;/b&gt; ( &lt;u&gt;Id_animal&lt;/u&gt;, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="374" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( Id_tratamento, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( &lt;u&gt;Id_tratamento&lt;/u&gt;, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="404" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( Id_vacina, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( &lt;u&gt;Id_vacina&lt;/u&gt;, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="434" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-13" value="&lt;b&gt;Exame&lt;/b&gt; ( Id_exame, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-13" value="&lt;b&gt;Exame&lt;/b&gt; ( &lt;u&gt;Id_exame&lt;/u&gt;, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="464" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-14" value="&lt;b&gt;Internação&lt;/b&gt; ( Id_internacao, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="sdLNeCAJGCO7a3UpZfQ9-14" value="&lt;b&gt;Internação&lt;/b&gt; ( &lt;u&gt;Id_internacao&lt;/u&gt;, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="494" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sdLNeCAJGCO7a3UpZfQ9-15" value="&lt;b&gt;Telefone&lt;/b&gt; ( &lt;u&gt;#id_pessoa,telefone&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7oXaqJnH841VH_D5Xylo-1" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( Id_recepcionista,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="7oXaqJnH841VH_D5Xylo-1" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( &lt;u&gt;Id_recepcionista&lt;/u&gt;,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="164" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CicVd9yCnp0I44kqji6g-1" value="&lt;b&gt;Pessoa&lt;/b&gt; ( &lt;u&gt;Id_pessoa&lt;/u&gt;, nome)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="20" y="70" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GLQ3UUEENlT0YwsbKA43-1" value="&lt;b&gt;Veterinario_Equipe&lt;/b&gt; ( Id_veterinario, id_equipe)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="20" y="530" width="320" height="30" as="geometry" />
+        <mxCell id="GLQ3UUEENlT0YwsbKA43-1" value="&lt;b&gt;Veterinario_Equipe&lt;/b&gt; ( &lt;u&gt;#Id_veterinario, #id_equipe&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
