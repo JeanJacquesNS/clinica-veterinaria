@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T13:33:41.071Z" agent="5.0 (Windows)" etag="cbDNeT0UQT-XOEKjWlHd" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-28T13:43:18.251Z" agent="5.0 (Windows)" etag="60pUJUL0xWHkDiCdmLP8" version="20.4.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="MER">
     <mxGraphModel dx="1736" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -740,6 +740,9 @@
         </mxCell>
         <mxCell id="CicVd9yCnp0I44kqji6g-1" value="&lt;b&gt;Pessoa&lt;/b&gt; ( &lt;u&gt;Id_pessoa&lt;/u&gt;, nome)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="20" y="70" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLQ3UUEENlT0YwsbKA43-1" value="&lt;b&gt;Veterinario_Equipe&lt;/b&gt; ( Id_veterinario, id_equipe)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
