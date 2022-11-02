@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * @author Jean Jacques N. Shimwa
  * @created 02-11-2022 - 2:05 PM
  */
-public class Internacao {
+public class InternacaoVO {
 
     private String estado;
     private LocalDate dataEntrada;
@@ -14,10 +14,10 @@ public class Internacao {
     private AnimalVO animalVO;
     private BaiaVO baiaVO;
 
-    public Internacao() {
+    public InternacaoVO() {
     }
 
-    public Internacao(String estado, LocalDate dataEntrada, LocalDate dataSaida, AnimalVO animalVO, BaiaVO baiaVO) {
+    public InternacaoVO(String estado, LocalDate dataEntrada, LocalDate dataSaida, AnimalVO animalVO, BaiaVO baiaVO) {
         this.estado = estado;
         this.dataEntrada = dataEntrada;
         this.dataSaida = dataSaida;
