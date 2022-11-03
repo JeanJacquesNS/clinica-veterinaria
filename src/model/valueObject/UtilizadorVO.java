@@ -5,26 +5,26 @@ package model.valueObject;
  * @created 26-10-2022 - 2:50 PM
  */
 public class UtilizadorVO {
-    private Long id;
+    private Integer id;
     private String nomeUtilizador;
     private String password;
-    private Long id_funcionario;
+    private Integer id_funcionario;
 
     public UtilizadorVO() {
     }
 
-    public UtilizadorVO(Long id, String nomeUtilizador, String password, Long id_funcionario) {
+    public UtilizadorVO(Integer id, String nomeUtilizador, String password, Integer id_funcionario) {
         this.id = id;
         this.nomeUtilizador = nomeUtilizador;
         this.password = password;
         this.id_funcionario = id_funcionario;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -44,11 +44,11 @@ public class UtilizadorVO {
         this.password = password;
     }
 
-    public Long getId_funcionario() {
+    public Integer getId_funcionario() {
         return id_funcionario;
     }
 
-    public void setId_funcionario(Long id_funcionario) {
+    public void setId_funcionario(Integer id_funcionario) {
         this.id_funcionario = id_funcionario;
     }
 }

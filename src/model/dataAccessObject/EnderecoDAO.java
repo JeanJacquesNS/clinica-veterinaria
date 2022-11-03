@@ -1,7 +1,6 @@
 package model.dataAccessObject;
 
 import model.valueObject.EnderecoVO;
-import model.valueObject.enderecoVO;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -41,8 +40,8 @@ public class EnderecoDAO extends Conexao{
         String sql = "UPDATE endereco SET nome=?,enderecoVO=? WHERE id=?";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            preparedStatement.setString(1, enderecoVO.getNome());
-            preparedStatement.setLong(2, enderecoVO.getEnderecoVO().getId_endereco());
+//            preparedStatement.setString(1, enderecoVO.getNome());
+//            preparedStatement.setLong(2, enderecoVO.getEnderecoVO().getId_endereco());
             preparedStatement.executeUpdate();
             preparedStatement.close();
 
@@ -72,9 +71,9 @@ public class EnderecoDAO extends Conexao{
             List<EnderecoVO> enderecoVOList = new ArrayList<>();
 
             while (resultSet.next()) {
-                EnderecoVO enderecoVO = new EnderecoVO(resultSet.getLong("id_endereco"), resultSet.getString("nome"),
-                        resultSet.getString("password"));
-                enderecoVOList.add(enderecoVO);
+//                EnderecoVO enderecoVO = new EnderecoVO(resultSet.getLong("id_endereco"), resultSet.getString("nome"),
+//                        resultSet.getString("password"));
+//                enderecoVOList.add(enderecoVO);
             }
             return enderecoVOList;
         } catch (SQLException excepcao) {

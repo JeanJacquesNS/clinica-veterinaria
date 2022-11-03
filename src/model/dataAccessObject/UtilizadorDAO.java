@@ -17,15 +17,10 @@ import java.util.logging.Logger;
  * @author Jean Jacques N. Shimwa
  * @created 26-10-2022 - 2:56 PM
  */
-public class UtilizadorDAO {
-    private Connection conexao;
+public class UtilizadorDAO extends Conexao{
 
     public UtilizadorDAO() {
-        try {
-            this.conexao = DbConexao.getConnection();
-        } catch (SQLException | ClassNotFoundException excepcao) {
-            Logger.getLogger(UtilizadorDAO.class.getName()).log(Level.SEVERE, null, excepcao);
-        }
+       super();
     }
 
     public void inserir(UtilizadorVO utilizadorVO) {
@@ -81,8 +76,8 @@ public class UtilizadorDAO {
 
             UtilizadorVO utilizadorVO = null;
             while (resultSet.next()) {
-                utilizadorVO = new UtilizadorVO(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
-                        resultSet.getString("password"), resultSet.getLong("id_funcionario"));
+                utilizadorVO = new UtilizadorVO(resultSet.getInt("id_utilizador"), resultSet.getString("nome_utilizador"),
+                        resultSet.getString("password"), resultSet.getInt("id_funcionario"));
             }
             preparedStatement.close();
             if (Objects.nonNull(utilizadorVO))
@@ -97,22 +92,22 @@ public class UtilizadorDAO {
         }
     }
 
-    public List<UtilizadorVO> pegarTodos() {
-        String sql = "SELECT * from utilizador";
-        try {
-            PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            ResultSet resultSet = preparedStatement.executeQuery();
-            List<UtilizadorVO> utilizadorVOList = new ArrayList<>();
-
-            while (resultSet.next()) {
-                UtilizadorVO utilizadorVO = new UtilizadorVO(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
-                        resultSet.getString("password"), resultSet.getLong("id_funcionario"));
-                utilizadorVOList.add(utilizadorVO);
-            }
-            return utilizadorVOList;
-        } catch (SQLException excepcao) {
-            Logger.getLogger(UtilizadorDAO.class.getName()).log(Level.SEVERE, null, excepcao);
-            return new ArrayList<>();
-        }
-    }
+//    public List<UtilizadorVO> pegarTodos() {
+//        String sql = "SELECT * from utilizador";
+//        try {
+//            PreparedStatement preparedStatement = conexao.prepareStatement(sql);
+//            ResultSet resultSet = preparedStatement.executeQuery();
+//            List<UtilizadorVO> utilizadorVOList = new ArrayList<>();
+//
+//            while (resultSet.next()) {
+//                UtilizadorVO utilizadorVO = new UtilizadorVO(resultSet.getLong("id"), resultSet.getString("nome_utilizador"),
+//                        resultSet.getString("password"), resultSet.getLong("id_funcionario"));
+//                utilizadorVOList.add(utilizadorVO);
+//            }
+//            return utilizadorVOList;
+//        } catch (SQLException excepcao) {
+//            Logger.getLogger(UtilizadorDAO.class.getName()).log(Level.SEVERE, null, excepcao);
+//            return new ArrayList<>();
+//        }
+//    }
 }

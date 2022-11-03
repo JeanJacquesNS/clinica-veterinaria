@@ -1,7 +1,6 @@
 package model.dataAccessObject;
 
 import model.valueObject.PessoaVO;
-import model.valueObject.pessoaVO;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -67,9 +66,9 @@ public class PessoaDAO extends Conexao{
             List<PessoaVO> pessoaVOList = new ArrayList<>();
 
             while (resultSet.next()) {
-                PessoaVO pessoaVO = new PessoaVO(resultSet.getLong("id_pessoa"), resultSet.getString("nome"),
-                        resultSet.getString("password"), bi);
-                pessoaVOList.add(pessoaVO);
+//                PessoaVO pessoaVO = new PessoaVO(resultSet.getLong("id_pessoa"), resultSet.getString("nome"),
+//                        resultSet.getString("password"), bi);
+//                pessoaVOList.add(pessoaVO);
             }
             return pessoaVOList;
         } catch (SQLException excepcao) {
@@ -82,18 +81,18 @@ public class PessoaDAO extends Conexao{
         String sql = "SELECT * from pessoa where id_pessoa=? limit 1";
         try {
             PreparedStatement preparedStatement = conexao.prepareStatement(sql);
-            preparedStatement.setString(1, id_pessoa);
-            ResultSet resultSet = preparedStatement.executeQuery();
-            List<PessoaVO> pessoaVOList = new ArrayList<>();
-
-            while (resultSet.next()) {
-                PessoaVO pessoaVO = new PessoaVO(resultSet.getLong("id_pessoa"), resultSet.getString("nome"),
-                        resultSet.getString("password"), bi);
-            }
-            return pessoaVOList;
+//            preparedStatement.setString(1, id_pessoa);
+//            ResultSet resultSet = preparedStatement.executeQuery();
+//            List<PessoaVO> pessoaVOList = new ArrayList<>();
+//
+//            while (resultSet.next()) {
+//                PessoaVO pessoaVO = new PessoaVO(resultSet.getLong("id_pessoa"), resultSet.getString("nome"),
+//                        resultSet.getString("password"), bi);
+//            }
+            return null;
         } catch (SQLException excepcao) {
             Logger.getLogger(PessoaDAO.class.getName()).log(Level.SEVERE, null, excepcao);
-            return new ArrayList<>();
+            return null;
         }
     }
 }
