@@ -7,13 +7,14 @@ import model.valueObject.UtilizadorVO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
 import java.util.Objects;
 
 /**
  * @author Jean Jacques N. Shimwa
  * @created 03-11-2022 - 12:26 PM
  */
-public class Login {
+public class Login extends JFrame {
     private JPanel principal;
     private JTextField textNome;
     private JPasswordField jpassword;
@@ -21,14 +22,22 @@ public class Login {
 
     UtilizadorController utilizadorController;
 
+    static JFrame frame;
+    static String titulo="Sistema de Gestão de Clinica Veterinaria";
     public Login() {
         utilizadorController= new UtilizadorController();
         btnLogar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (validar())
-                   if(utilizadorController.confere(textNome.getText(),String.valueOf(jpassword.getPassword())))
-                       JOptionPane.showMessageDialog(null, "O utilizador Existe!", "Sucesso!", JOptionPane.INFORMATION_MESSAGE);
+                   if(utilizadorController.confere(textNome.getText(),String.valueOf(jpassword.getPassword()))) {
+                       MenuPrincipal menuPrincipal= new MenuPrincipal(titulo);
+                       menuPrincipal.setVisible(Boolean.TRUE);
+                       frame.dispatchEvent(new WindowEvent(frame,WindowEvent.WINDOW_CLOSING));
+                       frame.setVisible(Boolean.FALSE);
+
+                   }
+//                       JOptionPane.showMessageDialog(null, "O utilizador Existe!", "Sucesso!", JOptionPane.INFORMATION_MESSAGE);
 
             }
         });
@@ -47,9 +56,9 @@ public class Login {
         return Boolean.TRUE;
     }
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Sistema de Gestão de Clinica Veterinaria");
+        frame = new JFrame(titulo);
         frame.setContentPane(new Login().principal);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.pack();
         frame.setVisible(true);
