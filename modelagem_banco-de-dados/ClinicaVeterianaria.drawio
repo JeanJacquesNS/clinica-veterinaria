@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T12:46:09.688Z" agent="5.0 (Windows)" etag="xM6PKHbhvud0uttiD4k6" version="20.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-04T12:34:25.911Z" agent="5.0 (Windows)" etag="xIbpKb7bhyDPKSEGpLPS" version="20.5.1" type="github" pages="8">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="MER">
-    <mxGraphModel dx="1578" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2149" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -642,57 +642,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="92ZSzt73axI3UxPXkOCI" name="Mapeamento">
-    <mxGraphModel dx="1182" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rcYcF909HLKdjSQd1sOn-1" value="&lt;b&gt;pessoa&lt;/b&gt; ( &lt;u&gt;Id&lt;/u&gt;, nomepessoa, password, previlegio, bloqueado,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-1" value="&lt;b&gt;pessoa&lt;/b&gt; ( &lt;u&gt;Id&lt;/u&gt;, nomepessoa, password, previlegio, bloqueado,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, nome, endereco(avenida,rua,bairo),telefone,salario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-2" value="&lt;b&gt;Funcionario&lt;/b&gt; ( &lt;u&gt;Id_funcionario&lt;/u&gt;, nome, endereco(avenida,rua,bairo),telefone,salario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="40" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-3" value="&lt;b&gt;Dono&lt;/b&gt; ( &lt;u&gt;Id_dono&lt;/u&gt;, nome, telefone,endereco(avenida,rua,bairo),telefone)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-3" value="&lt;b&gt;Dono&lt;/b&gt; ( &lt;u&gt;Id_dono&lt;/u&gt;, nome, telefone,endereco(avenida,rua,bairo),telefone)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-4" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( &lt;u&gt;Id_recepcionista&lt;/u&gt;,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-4" value="&lt;b&gt;Recepcionista&lt;/b&gt; ( &lt;u&gt;Id_recepcionista&lt;/u&gt;,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="70" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( &lt;u&gt;Id_veterinario&lt;/u&gt;, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-5" value="&lt;b&gt;Veterinario&lt;/b&gt; ( &lt;u&gt;Id_veterinario&lt;/u&gt;, especialidade,#id_funcionario)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="100" width="384" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( &lt;u&gt;Id_equipe&lt;/u&gt;, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-6" value="&lt;b&gt;Equipe&lt;/b&gt; ( &lt;u&gt;Id_equipe&lt;/u&gt;, nome, #id_areaInternacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( &lt;u&gt;Id_areaInternacao&lt;/u&gt;, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-7" value="&lt;b&gt;AreaInternacao&lt;/b&gt; ( &lt;u&gt;Id_areaInternacao&lt;/u&gt;, designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="190" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-8" value="&lt;b&gt;Baia&lt;/b&gt; ( &lt;u&gt;Id_baia&lt;/u&gt;, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-8" value="&lt;b&gt;Baia&lt;/b&gt; ( &lt;u&gt;Id_baia&lt;/u&gt;, numero, estado, #id_sector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="220" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-9" value="&lt;b&gt;Sector&lt;/b&gt; ( &lt;u&gt;Id_sector&lt;/u&gt;,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-9" value="&lt;b&gt;Sector&lt;/b&gt; ( &lt;u&gt;Id_sector&lt;/u&gt;,designacao)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="250" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-10" value="&lt;b&gt;Animal&lt;/b&gt; ( &lt;u&gt;Id_animal&lt;/u&gt;, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-10" value="&lt;b&gt;Animal&lt;/b&gt; ( &lt;u&gt;Id_animal&lt;/u&gt;, nome, alergia, tipo, #Id_dono )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="280" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( &lt;u&gt;Id_tratamento&lt;/u&gt;, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-11" value="&lt;b&gt;Tratamento&lt;/b&gt; ( &lt;u&gt;Id_tratamento&lt;/u&gt;, descricao, dataInicio,dataFim, #Id_equipe,#Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="310" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( &lt;u&gt;Id_vacina&lt;/u&gt;, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-12" value="&lt;b&gt;Vacina&lt;/b&gt; ( &lt;u&gt;Id_vacina&lt;/u&gt;, nomeVacina, validadeEfeito, dataVacinacao #Id_animal )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="340" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-13" value="&lt;b&gt;Exame&lt;/b&gt; ( &lt;u&gt;Id_exame&lt;/u&gt;, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-13" value="&lt;b&gt;Exame&lt;/b&gt; ( &lt;u&gt;Id_exame&lt;/u&gt;, nome, data, resultado, #Id_animal, #Id_veterinario )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="370" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcYcF909HLKdjSQd1sOn-14" value="&lt;b&gt;Internação&lt;/b&gt; ( &lt;u&gt;Id_internacao&lt;/u&gt;, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="rcYcF909HLKdjSQd1sOn-14" value="&lt;b&gt;Internação&lt;/b&gt; ( &lt;u&gt;Id_internacao&lt;/u&gt;, estado, dataEntrada, dataSaida, #Id_animal, #Id_baia )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="20" y="400" width="540" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="poyam2bTx1zfcL1wqPr9" name="Normalização">
-    <mxGraphModel dx="868" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -757,7 +757,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xBtK4PwS41yjwEtgl1wT" name="Operações (Algebra Relacional)">
-    <mxGraphModel dx="1695" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -768,10 +768,40 @@
           <mxGeometry x="-800" y="70" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah60ZI0vffa5jWtjLa6B-3" value="bloqueado=false (pessoa)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="70" width="190" height="30" as="geometry" />
+          <mxGeometry x="-779" y="74" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah60ZI0vffa5jWtjLa6B-4" value="&lt;div&gt;Tab_geral &amp;lt;--- Veterinario&amp;nbsp;&amp;nbsp; &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;x&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&amp;nbsp; Pessoa&amp;nbsp;&amp;nbsp; &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;x&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; Funcionario&lt;/span&gt;&lt;/span&gt;&amp;nbsp; &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;x&lt;span style=&quot;background-color: rgb(245, 245, 245);&quot;&gt;&amp;nbsp; Endereco &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt; v.Id_funcionario = f.Id_funcionario,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; f.Id_pessoa = p.Id_pessoa,&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;e.id_pessoas = p.id_pessoa&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;Result &amp;lt;--- &lt;/span&gt;&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Calibri&quot;&gt;π nome, especialidade, salario,bairro,avenida,rua (Tab_geral)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="130" width="590" height="110" as="geometry" />
+          <mxGeometry x="-810" y="300" width="590" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GUBdGP9qs1sWvUoDaa4b-1" value="&lt;p&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Calibri&quot;&gt;σ &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="130" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUBdGP9qs1sWvUoDaa4b-2" value="id_animal = IdAnimal (Exames)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-778" y="135" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gMZSMjRLaBFG7le--38X-2" value="&lt;div&gt;Tab_geral &amp;lt;--- Exame &amp;nbsp; &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;x&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&amp;nbsp; Animal &amp;nbsp; &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;x&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; Veterinario&lt;/span&gt;&lt;/span&gt; &lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt; e.id_animal = a.Id_animal,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; e.Id_veterinario = v.Id_veterinario&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;Result &amp;lt;--- &lt;/span&gt;&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Calibri&quot;&gt;π nomeExame , id_veterinario, nomeVeterinario,data,resultado (&amp;nbsp; &amp;nbsp;&amp;nbsp; id_animal=Var(Tab_geral))&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-853" y="460" width="880" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BqWUEDkALf-2oB8LBkcn-1" value="&lt;p&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Calibri&quot;&gt;σ &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSD5qbQrKxtrdWrDX46d-1" value="&lt;p&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Calibri&quot;&gt;σ &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSD5qbQrKxtrdWrDX46d-2" value="id_animal = IdAnimal (Vacina)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="174" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW0gp0iJHvxf2oT96j3i-6" value="&lt;p&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Calibri&quot;&gt;σ &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="204" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW0gp0iJHvxf2oT96j3i-7" value="id_dono = donoId (Animal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="208" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW0gp0iJHvxf2oT96j3i-8" value="&lt;p&gt;&lt;font size=&quot;1&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Calibri&quot;&gt;σ &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="133" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW0gp0iJHvxf2oT96j3i-9" value="id_animal = IdAnimal (Dono)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="137" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
