@@ -21,8 +21,10 @@ public class DbConexao implements Serializable {
         this.host = "localhost";
         this.porta = "3306";
         this.db = "clinica_veterinaria";
-        this.user = "admin";
-        this.password = "admin12345678";
+//        this.user = "admin";
+//        this.password = "admin12345678";
+        this.user = "root";
+        this.password = "";
     }
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
