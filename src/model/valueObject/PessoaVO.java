@@ -7,48 +7,69 @@ package model.valueObject;
 public class PessoaVO {
     private Long id_pessoa;
     private String nome;
-    private EnderecoVO enderecoVO;
-    private String bi;
+    private String tipoDocumento;
+    private String nrDocumento;
+    private String bairro;
+    private String avenida;
+    private String rua;
 
     public PessoaVO() {
     }
 
-    public PessoaVO(Long id_pessoa, String nome, EnderecoVO enderecoVO, String bi) {
-        this.id_pessoa = id_pessoa;
+    public PessoaVO(String nome, String tipoDocumento, String nrDocumento, String bairro, String avenida, String rua) {
         this.nome = nome;
-        this.enderecoVO = enderecoVO;
-        this.bi = bi;
-    }
-
-    public Long getId_pessoa() {
-        return id_pessoa;
-    }
-
-    public void setId_pessoa(Long id_pessoa) {
-        this.id_pessoa = id_pessoa;
+        this.tipoDocumento = tipoDocumento;
+        this.nrDocumento = nrDocumento;
+        this.bairro = bairro;
+        this.avenida = avenida;
+        this.rua = rua;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public EnderecoVO getEnderecoVO() {
-        return enderecoVO;
-    }
-
-    public void setEnderecoVO(EnderecoVO enderecoVO) {
-        this.enderecoVO = enderecoVO;
-    }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getBi() {
-        return bi;
+    public String getTipoDocumento() {
+        return tipoDocumento;
     }
 
-    public void setBi(String bi) {
-        this.bi = bi;
+    public void setTipoDocumento(String tipoDocumento) {
+        this.tipoDocumento = tipoDocumento;
+    }
+
+    public String getNrDocumento() {
+        return nrDocumento;
+    }
+
+    public void setNrDocumento(String nrDocumento) {
+        this.nrDocumento = nrDocumento;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public String getAvenida() {
+        return avenida;
+    }
+
+    public void setAvenida(String avenida) {
+        this.avenida = avenida;
+    }
+
+    public String getRua() {
+        return rua;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
     }
 }
